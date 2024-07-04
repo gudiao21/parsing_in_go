@@ -1,0 +1,51 @@
+{
+  "user":{
+    "id":1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "addresses": [
+      {
+        "type": "home",
+        "address": "123 Main St, Anytown, USA"
+      },
+      {
+        "type": "work",
+        "address": "456 Office Rd, Bigcity, USA"
+      }
+    ],
+    "orders": [
+      {
+        "order_id": 101,
+        "items": [
+          {
+            "item_id": 1,
+            "name": "Laptop",
+            "price": 999.99
+          },
+          {
+            "item_id": 2,
+            "name": "Mouse",
+            "price": 49.99
+          }
+        ],  
+        "total": 1049.98
+      },
+      {
+        "order_id": 102,
+        "items": [
+          {
+            "item_id": 3,
+            "name": "keyboard",
+            "price": 79.99
+          }
+        ],
+        "total": 79.99
+      }
+    ],
+    "settings": {
+      "theme": "dark",
+      "notifications": true,
+      "newsletter_subscribed": false
+    }
+  }
+}
